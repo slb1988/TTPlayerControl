@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:id="@+id/info"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Welcome to use TTPlayerController!"
+    />
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Input IP:"
+        />
+    <EditText
+        android:id="@+id/editIP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        />
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="Input PT:"
+        />
+    <EditText
+        android:id="@+id/editPT"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        />
+</LinearLayout>
+<Button
+    android:id="@+id/start"  
+    android:text="Start/Pause" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<Button
+    android:id="@+id/stop"
+    android:text="Stop"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<Button
+    android:id="@+id/next"
+    android:text="Next--"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<Button
+    android:id="@+id/prev"
+    android:text="--Prev"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+</LinearLayout>
